@@ -1,0 +1,68 @@
+/* @override
+    http://sploder.net/css/users2.css */
+
+/* CSS Document */
+div.users_online ul
+    {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    }
+
+div.users_online li {
+    font-size: 14px;
+    line-height: 24px;
+    list-style-type: none;
+    display: block;
+    background-color: #345;
+    padding: 8px 0;
+    width: 99%;
+    margin: 0 10px 10px 0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#445566), to(#112233));
+    background: -moz-linear-gradient(center bottom, rgb(40,50,60) 0%, rgb(70,80,90) 100%);
+}
+
+#content div.users_online
+{
+    margin-right: -10px;
+}
+#content div.users_online li
+{
+    float: left;
+    width: 182px !important;
+}
+
+div.users_online li a {
+    display: block;
+    float: left;
+    width: 80%;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    height: 26px;
+    color: #ccc;
+}
+
+#content div.users_online li a
+{
+    width: 70%;
+}
+
+div.users_online li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+div.users_online li a img {
+    vertical-align: middle;
+    margin: -6px 10px 1px 8px;
+}
+
+div.users_online li img.flag,
+div.users_online li img.status {
+    padding: 7px 0 0 7px;
+}

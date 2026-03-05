@@ -1,0 +1,25 @@
+a.thumb {
+    display: block;
+    float: left;
+    border: 1px solid white;
+    padding: 0;
+    margin: 15px 10px 20px 0;
+    text-decoration: none;
+    color: #fff;
+}
+a.thumb img {
+    border: 8px solid #999;
+}
+div.game {
+    clear: both;
+}
+div.game h4 a {
+    font-weight: normal;
+    }
+div.game p {
+    color: #ccc;
+    padding-top: 12px;
+    }
+div.game p.postlink {
+    text-align: right;
+}

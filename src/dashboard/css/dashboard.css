@@ -1,0 +1,122 @@
+/* CSS Document */
+
+div#new_status {}
+
+div#idbadge {
+    float: left;
+    width: 45%;
+    height: 240px;
+    border: 1px solid #345;
+    margin: 10px 10px 20px 0;
+    text-align: center;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#334455), color-stop(0.255, black));
+    background-image: -moz-linear-gradient(90deg, #334455 0%, black 25.5%);
+}
+
+div#idbadge div {
+    margin: 20px auto;
+    text-align: center;
+}
+div#idbadge div img {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+div#idbadge abbr {
+    cursor: help;
+}
+div#idbadge div p {
+    margin: 2px;
+    text-align: center;
+}
+div#idbadge div p a {
+    color: #39f;
+}
+div#idbadge div p.badgename {
+    font-size: 18px;
+}
+div#idbadge div p.badgename a {
+    color: #fff;
+}
+
+div#new_status.get_started p {
+    margin-top: 2px;
+}
+div#new_status.dashboard ul {
+    float: left;
+    width: 250px;
+}
+
+div#new_status ul {
+    margin-bottom: 30px;
+}
+
+div#new_status li {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    vertical-align: middle;
+    list-style-position: outside;
+    list-style-type: none;
+    padding-left: 10px;
+        ;
+    color: #666;
+}
+
+div#new_status ul.actions {
+    list-style-image: url("/chrome/bullet1.gif");
+}
+
+div#new_status ul.actions li.meh {
+    list-style-image: url("/chrome/bullet0.gif");
+}
+
+div#new_status ul.actions li.wow {
+    list-style-image: url("/chrome/bullet2.gif");
+}
+
+div#new_status li a {
+    font-weight: normal;
+    color: #a4bedb;
+    text-decoration: underline;
+}
+div#new_status ul.actions li.wow a {
+    color: #fff;
+}
+div#new_status li a:hover {
+    font-weight: normal;
+    color: #fff;
+}
+
+div.notifications h4 span {
+    font-size: 11px;
+        color: #999;
+}
+
+div.friendgamelist {
+    background: black url('/friends/chrome/element_bkgd.gif') repeat-x 50% 0%;
+    border: 2px solid #444;
+    margin: 20px 0;
+    padding: 8px;
+}
+
+div.friendgamelist p {
+    float: left;
+        width: 234px;
+        height: 48px;
+        text-align: left;
+        margin: 10px 0 10px 0;
+}
+
+div.friendgamelist img {
+    float: left;
+    margin: 0 10px;
+    border: 2px solid #fff;
+}
+
+div.friendgamelist br.spacer {
+    clear: both;
+}

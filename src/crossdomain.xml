@@ -1,0 +1,1 @@
+<cross-domain-policy><allow-access-from domain="*"/><allow-access-from domain="sploder.home"/><allow-access-from domain="*.sploder.com"/><allow-access-from domain="sploder.s3.amazonaws.com"/></cross-domain-policy>

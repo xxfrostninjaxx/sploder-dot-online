@@ -1,0 +1,36 @@
+body.featured .nav_games li:nth-child(2) a,
+body.boosts .nav_games li:nth-child(3) a,
+body.newest .nav_games li:nth-child(3) a,
+body.fourth .nav_games li:nth-child(4) a,
+body.seventh .nav_games li:nth-child(7) a,
+body.reviews .nav_games li:nth-child(4) a,
+body.collections .nav_games li:nth-child(6) a,
+body.graphics .nav_games li:nth-child(5) a,
+body.favorites .nav_games li:nth-child(8) a,
+body.web .nav_games li:nth-child(9) a,
+body.tags .nav_games li:nth-child(6) a,
+body.egl .nav_games li:nth-child(11) a,
+body.search .nav_games li:nth-child(7) a,
+body.arcade .nav_creators li:nth-child(2) a,
+body.platformer .nav_creators li:nth-child(3) a,
+body.physics .nav_creators li:nth-child(4) a,
+body.graphicseditor .nav_creators li:nth-child(5) a,
+body.shooter .nav_creators li:nth-child(6) a,
+body.threedee .nav_creators li:nth-child(7) a,
+body#members.allmembers .nav_members li:nth-child(2) a,
+body#members.groups .nav_members li:nth-child(3) a,
+body#members.staff .nav_members li:nth-child(3) a,
+body#members.motd .nav_members li:nth-child(6) a,
+body#members.halloffame .nav_members li:nth-child(7) a,
+body#members.messages .nav_members li:nth-child(4) a {
+    color: #fff !important;
+}
+
+
+
+body.graphics .nav_games li:nth-child(6) a {
+    color: #ec0 !important;
+}
+body.graphics .nav_games li:nth-child(6) a:hover {
+    color: #ffec00 !important;
+}

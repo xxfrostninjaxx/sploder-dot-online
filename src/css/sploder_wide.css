@@ -1,0 +1,67 @@
+/*  Structural Elements
+    ---------------------------------------------------------------- */
+
+#main {
+    width: 940px;
+    background-image: none;
+}
+
+#header {
+    width: 940px;
+    background-image: none;
+}
+#title {
+    width: 370px;
+}
+#title h1 a {
+    width: 370px;
+}
+#header #tools {
+    width: 550px;
+}
+#header ul#topnav {
+    width: 550px;
+}
+
+
+#home #flashcontent,
+#everyones #flashcontent {
+    width: 648px;
+    height: 480px;
+}
+body#everyones #header ul#topnav li ul {
+    width: 840px;
+}
+p#subnav {
+    width: 628px;
+}
+#page {
+    width: 900px;
+}
+
+#content {
+    width: 650px;
+}
+#sidebar {
+    display: inline;
+    float: left;
+    width: 180px;
+    padding: 0;
+    margin-left: 10px;
+}
+
+#footer {
+    width: 860px;
+}
+
+#footer .copyright {
+    width: 150px;
+}
+
+#footer .version {
+    width: 100px;
+}
+#bottomnav {
+    width: 940px;
+    background-image: none;
+}

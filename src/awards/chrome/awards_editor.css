@@ -1,0 +1,197 @@
+body#awardsmanager h4 {
+    color: #496dab;
+    margin-bottom: 16px;
+    font: 600 24px "Raleway", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+div.member_chooser {
+    background: #000 url("../chrome/element_bkgd.gif") repeat-x top;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 2px solid #444;
+    position: relative;
+}
+
+div.member_chooser {
+    border-color: #222;
+}
+
+div.member_chooser h4 {
+
+    font-size: 18px !important;
+    margin-top: 0;
+    border: none !important;
+    color: #999 !important;
+
+}
+
+div.member_chooser label {
+    color: #69c;
+    font-size: 14px !important;
+}
+
+div.member_chooser input {
+
+    border: 2px solid #9BACCE;
+    font-size: 15px;
+    width: 200px;
+    margin-left: 10px;
+
+}
+
+div.member_chooser ul {
+    padding: 0;
+    margin-top: 20px !important;
+}
+
+div.member_chooser ul li {
+    border-top: 1px dashed #333;
+    padding: 10px 0;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+}
+
+div.member_chooser ul li a {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #69c;
+}
+
+
+
+/* EDITOR STYLES */
+
+
+
+div#icon_editor {
+    border-top: 4px solid #666;
+    border-bottom: 4px solid #666;
+    padding: 20px 0;
+    position: relative;
+}
+
+div#icon_editor #prompt {
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #000000;
+    filter:alpha(opacity=75);
+    -moz-opacity: 0.75;
+    opacity: 0.75;
+    z-index: 100;
+}
+
+div#icon_editor #prompt p {
+    text-align: center;
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+div#icon_editor div#icon {
+    width: 136px;
+    height: 136px;
+    background: #000 url("../chrome/editor_bkgd.gif");
+    float: left;
+}
+
+div#icon_editor div#icon div#layers {
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+div#icon_editor div#icon div.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 96px;
+    height: 96px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+div#icon_editor div#icon div.layer_01 {
+    z-index: 1;
+    background: url("../chrome/art_01_96.gif");
+}
+
+div#icon_editor div#icon div.layer_02 {
+    z-index: 2;
+    background-image: url("../chrome/art_02_96.gif");
+}
+
+div#icon_editor div#icon div.layer_03 {
+    z-index: 3;
+    background-image: url("../chrome/art_03_96.gif");
+}
+
+div#icon_editor div#controls {
+    float: left;
+    width: 340px;
+    margin-left: 12px;
+}
+
+div#icon_editor div.control {
+    clear: both;
+    border-bottom: 1px dashed #333;
+    height: 30px;
+    padding-top: 5px;
+}
+
+div #icon_editor div.textcontrol {
+    height: 80px;
+    clear: both;
+}
+
+div#icon_editor div.control label {
+    display: block;
+    float: left;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    line-height: 20px;
+    font-size: 13px;
+    vertical-align: middle;
+    padding-top: 4px;
+}
+
+div#icon_editor div.control select {
+    margin-top: 4px;
+}
+
+
+div#icon_editor div.control input.ctrl {
+    border: none !important;
+    background: none !important;
+    display: block;
+    float: left;
+}
+
+div#icon_editor input#control_save,
+div#icon_editor input#control_reset
+{
+    border: none !important;
+    background: none !important;
+    display: block;
+    position: absolute;
+    top: 170px;
+    left: 25px;
+}
+
+div#icon_editor input#control_reset {
+    top: 200px;
+}
+
+div.clear {
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+    line-height: 1px;
+    font-size: 1px;
+}

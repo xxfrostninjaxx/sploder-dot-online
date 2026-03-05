@@ -1,0 +1,50 @@
+/* CSS Document */
+div.users_online ul
+    {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    }
+
+div.users_online li {
+    list-style-type: none;
+    display: block;
+    float: left;
+    background: #333;
+    padding: 6px 0;
+    width: 159px;
+    margin: 0 10px 10px 0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#555555), to(#222222));
+    background: -moz-linear-gradient(center bottom, rgb(50,50,50) 0%, rgb(80,80,80) 100%);
+}
+
+div.users_online li a {
+    display: block;
+    float: left;
+    width: 116px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 11px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 26px;
+    height: 26px;
+    color: #ccc;
+}
+
+div.users_online li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+div.users_online li a img {
+    vertical-align: middle;
+    margin: -2px 4px 1px 6px;
+}
+
+div.users_online li img.flag,
+div.users_online li img.status {
+    padding: 7px 0 0 5px;
+}

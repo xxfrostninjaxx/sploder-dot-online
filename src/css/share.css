@@ -1,0 +1,89 @@
+#show div.showcontent div.share ul
+    {
+    margin: 0;
+    padding: 0;
+    }
+
+div.share
+    {
+    margin-bottom: 10px;
+    }
+
+div.share li
+    {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    }
+
+div.share img
+    {
+    float: left;
+    }
+
+div.share ul li a
+    {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    }
+
+a.delicious
+    {
+    background: transparent url(../chrome/share/delicious.gif) no-repeat top;
+    }
+
+a.digg
+    {
+    background: transparent url(../chrome/share/digg.gif) no-repeat top;
+    }
+
+a.fark
+    {
+    background: transparent url(../chrome/share/fark.gif) no-repeat top;
+    }
+
+a.furl
+    {
+    background: transparent url(../chrome/share/furl.gif) no-repeat top;
+    }
+
+a.newsvine
+    {
+    background: transparent url(../chrome/share/newsvine.gif) no-repeat top;
+    }
+
+a.reddit
+    {
+    background: transparent url(../chrome/share/reddit.gif) no-repeat top;
+    }
+
+a.tailrank
+    {
+    background: transparent url(../chrome/share/tailrank.gif) no-repeat top;
+    }
+
+a.yahoo
+    {
+    background: transparent url(../chrome/share/yahoomyweb.gif) no-repeat top;
+    }
+
+a.blinklist
+    {
+    background: transparent url(../chrome/share/blinklist.gif) no-repeat top;
+    }
+
+a.delicious:hover,
+a.digg:hover,
+a.fark:hover,
+a.furl:hover,
+a.newsvine:hover,
+a.reddit:hover,
+a.tailrank:hover,
+a.yahoo:hover,
+a.blinklist:hover
+    {
+    background-position: bottom;
+    }

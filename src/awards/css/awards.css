@@ -1,0 +1,156 @@
+/* AWARD STYLES */
+
+div.award
+{
+	height: 50px;
+	position: relative;
+	clear: both;
+	border: 1px solid #5b6c8e;
+	margin: 0 0 10px 0;
+	color: #fff;
+	font-size: 11px;
+	background: #000 url('/awards/chrome/award_corner.gif') no-repeat bottom right;
+}
+div.award img
+{
+	float: left;
+    vertical-align: middle;
+    padding: 8px;
+	margin-right: 10px;
+	background: #000;
+}
+div.award_32.special_1 img
+{
+	background: url('/awards/chrome/award_shine_48.gif') no-repeat;
+}
+div.award dt
+{
+	font-weight: bold;
+	
+}
+
+div.award p
+{
+	margin: 15px;
+}
+
+div.award_admin
+{
+	height: 70px;
+}
+div.award_admin dd.overview
+{
+	margin: 15px 5px 0 5px;
+	text-align: right;
+	font-size: 10px;
+	color: #666;
+	background: #000;
+}
+div.award_admin dd.overview a
+{
+	color: #999;
+	font-weight: normal;
+}
+
+div.award span.award_controls {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+div.award span.award_controls a {
+    font-size: 11px;
+    color: #999;
+    font-weight: normal;
+}
+
+div.award span.award_controls a:hover {
+    color: #fff;
+}
+
+div.award.result_notice {
+
+    color: #999;
+
+}
+
+div.award.result_error {
+
+    color: #f00;
+
+}
+
+div.award.result_success {
+
+    color: #0c6;
+
+}
+
+div.award_64
+{
+	position: relative;
+	width: 96px !important;
+	height: 96px !important;
+	margin: 0;
+	border: none;
+	float: left !important;
+	clear: none;
+	background: none;
+}
+
+div.award_64 img
+{
+	padding: 16px;
+}
+
+div.award_64.special_1 img
+{
+	background: url('/awards/chrome/award_shine_96.gif') no-repeat;
+}
+
+div.award_64 dl
+{
+	display: none;
+	position: absolute;
+	background: #000;
+	border: 1px solid #5b6c8e;
+	top: -48px;
+	left: -48px;
+	width: 192px;
+	height: 64px;
+	z-index: 100;
+	font-size: 10px;
+	font-weight: normal;
+	padding: 8px 0;
+}
+
+div.award_64 dl dt, div.award_64 dd
+{
+	text-align: center;
+	margin: 0;
+	padding: 0 4px;
+}
+
+div.award_64 dl dd.award_cite
+{
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	text-align: center;
+	color: #666;
+}
+
+div.award_64 dl dd.award_cite a
+{
+	font-weight: normal;
+	color: #999;
+}
+
+div.award_64:hover dl
+{
+	display: block;
+	background-image: url('/awards/chrome/award_plaque.gif');
+}
+
+div#profile_awards {
+	clear: both;
+	margin: 10px;

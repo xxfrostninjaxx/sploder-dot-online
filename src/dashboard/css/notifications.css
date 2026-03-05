@@ -1,0 +1,103 @@
+div.notifications div.scrollbox {
+    clear: both;
+        height: 400px;
+        padding-right: 20px;
+        overflow: scroll;
+        scrollbar-face-color: #333333;
+    scrollbar-arrow-color: #FFFFFF;
+    scrollbar-highlight-color: #555555;
+    scrollbar-3dlight-color: #666666;
+    scrollbar-shadow-color: #000000;
+    scrollbar-darkshadow-color: #000000;
+    scrollbar-track-color: #222222;
+}
+div.notifications div.secondary {
+    height: 200px;
+}
+
+div.notifications h4 {
+    color: #496dab;
+        margin-bottom: 16px;
+        font: 600 24px "Raleway", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+div.notifications div {
+    background: #000 url("../chrome/element_bkgd.gif") repeat-x top;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 2px solid #444;
+    position: relative;
+}
+
+div.notifications div img {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+div.notifications div img.badge {
+    padding: 0 3px 0 0 !important;
+}
+
+div.notifications div img.avatar {
+    padding: 0 5px 0 2px !important;
+}
+
+
+div.notifications div span {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-align: right;
+    color: #666;
+}
+
+div.notifications div span a {
+
+    color: #999;
+    font-weight: normal;
+}
+
+div.notifications div_new span a {
+
+    color: #fff;
+    font-weight: normal;
+}
+
+div.clear {
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+    line-height: 1px;
+    font-size: 1px;
+}
+
+div.friend_48 {
+    width: 73px;
+        height: 73px;
+        float: left;
+        margin: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+        overflow: hidden;
+        font-size: 11px;
+        letter-spacing: -1px;
+}
+
+div.friend_48 img {
+    margin: 0 8px 4px 8px !important;
+    padding-left: 6px !important;
+    clear: both;
+}
+
+div.friend_48 a {
+    display: block !important;
+        clear: both;
+}
+
+div.notifications blockquote {
+    color: #666;
+        font-size: 12px;
+        font-family: "Courier New", Courier, monospace;
+        font-weight: bold;
+}

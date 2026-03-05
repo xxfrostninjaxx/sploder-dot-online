@@ -1,0 +1,293 @@
+/* @override
+    http://sploder.home/css/membercontest.css
+    http://sploder.home/css/challenges.css
+    https://cdn.sploder.com/css/challenges.css */
+
+div.challenges_intro {
+    margin-top: -10px;
+    background: #000 url('/chrome/challenges_intro_bkgd.png') no-repeat top;
+    padding: 60px 20px 20px 20px;
+}
+
+div.challenges_intro h3 {
+    margin-top: 50px;
+    text-align: center;
+    color: #eef;
+}
+
+div.challenges_intro p {
+    color: #f7f;
+}
+
+
+div.challenges_intro p#countdown-holder {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+div.challenges_intro p.note {
+    color: #c60;
+    margin-top: 0;
+}
+
+div.prompt,
+div.alert {
+    margin-bottom: 40px;
+}
+
+div.challenge_confirm {
+    background: #606 url('/chrome/challenge_accept_medium.png') no-repeat 10px 10px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+div.challenge_confirm p {
+    font-size: 1em;
+    margin: 0;
+}
+
+div.challenge_confirm div.button {
+    margin: 25px 0 10px 0;
+}
+
+div.challenge_confirm div.button a,
+div.challenge_form input.postbutton,
+div.challenge_confirm input.postbutton {
+    font-size: 14px;
+    color: #000;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(193, 105, 10)), to(rgb(254, 233, 32))) #b57f32;
+    background: -moz-linear-gradient(bottom, rgb(193, 105, 10) 0%, rgb(254, 233, 32) 100%) #b57f32;
+    background: linear-gradient(to top, rgb(193, 105, 10) 0%, rgb(254, 233, 32) 100%) #b57f32;
+    border: none;
+    text-shadow: 1px 1px 0 #ffcc00;
+    cursor: pointer;
+}
+
+div.challenge_form input.postbutton:disabled {
+    color: #f60;
+    cursor: not-allowed;
+}
+
+div.challenge_confirm div.button a:hover {
+    background-color: #c0c;
+}
+
+div.challenge_form {
+    background: #606 url('/chrome/challenge_simple_large.png') no-repeat 10px 10px;
+
+    padding-left: 200px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+    color: #eee;
+}
+
+div.challenge_form h4 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+}
+
+div.challenge_form label {
+    color: #f6f;
+    display: inline-block;
+    min-width: 173px;
+}
+
+div.challenge_form hr {
+    background-image: none;
+    background-color: #808;
+    height: 6px;
+}
+
+div.challenge_form p,
+div.challenge_status p {
+    margin-bottom: 10px;
+}
+
+div.challenge_form div {
+    color: #fff !important;
+    text-indent: 180px;
+    clear: both;
+}
+
+div.challenge_form form {
+    clear: both;
+    float: right;
+    width: 100%;
+    text-align: left;
+}
+
+div.challenge_form input {
+    border: 1px solid #909;
+    background-image: none;
+    background-color: #205;
+    padding: 6px 12px;
+}
+
+div.challenge_form span {
+    color: #fff !important;
+}
+
+div.challenge_form abbr {
+    border-bottom: 2px dotted #c3c;
+    cursor: help;
+}
+
+div.challenge_status p.challenge_winners_list {
+    background-color: #505;
+    padding: 10px;
+    border-radius: 6px;
+    width: 280px;
+}
+
+div.set {
+    background: #123 !important;
+    padding: 10px 0 0 10px !important;
+}
+
+
+div.set div.challenge_game {
+    padding: 10px;
+    width: 246px;
+    margin: 0 10px 10px 0;
+    background-color: #345;
+    border-radius: 10px;
+    position: relative;
+    padding-top: 6px;
+}
+
+div.set div.challenge_game img.verified {
+    display: none;
+}
+
+div.set div.challenge_game.chal_ver img.verified {
+    display: block !important;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 32px;
+    right: 12px;
+    z-index: 1;
+}
+
+p.goal {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 2px;
+}
+
+div.gameinfo {
+    background-color: #234;
+    margin-bottom: 20px;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+}
+
+div.gameinfo img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    transition-property: top, bottom;
+    transition-duration: 0.5s;
+    z-index: 1;
+}
+
+div.gameinfo:hover img {
+    top: -85px;
+    transition-property: top, bottom;
+    transition-duration: 0.5s;
+}
+
+div.gameinfo div.game_titles {
+    z-index: 2;
+    background: #000;
+    background: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+div.gameinfo.gametype_5 img {
+    top: -32px;
+}
+
+div.gameinfo.gametype_5:hover img {
+    top: -108px;
+}
+
+div.gameinfo div.game_titles h4 {
+    margin-top: 6px !important;
+}
+
+div.gameinfo div.game_titles h4,
+div.gameinfo div.game_titles h5 {
+    padding: 2px 10px;
+}
+
+div.gameinfo div.game_titles h4 a {
+    font-weight: normal;
+}
+
+p.prize,
+p.winners {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+p.winners {
+    position: absolute;
+    bottom: 4px;
+    left: 10px;
+    margin: 0;
+}
+
+p.prize {
+    padding: 0 0 0 20px !important;
+    margin: 0 !important;
+    position: absolute;
+    bottom: 4px;
+    right: 10px;
+}
+
+p.prize span {
+    display: inline-block;
+    background: transparent url('../chrome/coin.png') no-repeat left;
+    text-indent: 18px;
+    font-weight: bold;
+    color: #fc0 !important;
+}
+
+/* Make the text inputs 10px */
+input[type="text"] {
+    width: 50px;
+    font-size: 12px;                        
+}
+
+/* Remove the spacing between two trs */
+
+table {
+    border-spacing: 0; /* Removes spacing between cells */
+    border-collapse: collapse; /* Ensures no gaps between borders */
+}
+
+tr {
+    margin: 0; /* Removes any margin */
+    padding: 0; /* Removes any padding */
+}
+
+td {
+    padding: 0px;
+    /* Make font bigger */
+    font-size:16px;
+}
+/* Add more margin to the suffix */
+.suffix {
+    padding-left: 5px;
+    
+}
+

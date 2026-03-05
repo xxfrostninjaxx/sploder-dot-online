@@ -1,0 +1,41 @@
+/* CSS Document */
+
+a.tooltip {
+    position: relative;
+    width: 1px;
+    padding: 5px 10px;
+    height: 25px;
+    cursor: help;
+    color: #ccc !important;
+    background: #000 url(../chrome/help_icon.gif) no-repeat top left;
+}
+
+a.tooltip span {
+    display: none;
+}
+
+a.tooltip:hover {
+    text-decoration: none;
+    font-weight: normal;
+    color: #ccc;
+}
+
+a.tooltip:hover span {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    left: -100px;
+    z-index: 1000;
+    width: 200px;
+    font-size: 11px;
+    background-color: #000;
+    border: 2px solid #999;
+    padding: 10px;
+    line-height: 16px;
+    text-align: left;
+    color: #ccc;
+}
+
+a.tooltip:hover span strong {
+    line-height: 20px;
+}
